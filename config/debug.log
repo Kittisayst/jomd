@@ -1,0 +1,909 @@
+[03-Dec-2024 12:54:42 Asia/Vientiane] PHP Fatal error:  Uncaught Error: Cannot use object of type Database as array in C:\wamp64\www\jomd\controllers\HomeController.php:8
+Stack trace:
+#0 C:\wamp64\www\jomd\Router.php(34): HomeController->index(NULL)
+#1 C:\wamp64\www\jomd\index.php(26): Router->RouterProvider()
+#2 {main}
+  thrown in C:\wamp64\www\jomd\controllers\HomeController.php on line 8
+[03-Dec-2024 13:04:04 Asia/Vientiane] PHP Warning:  Undefined variable $files in C:\wamp64\www\jomd\views\home\index.php on line 11
+[03-Dec-2024 13:04:04 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 13:04:04 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 13:04:04 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:27
+[03-Dec-2024 13:04:04 Asia/Vientiane] PHP   3. HomeController->index(NULL) C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 13:04:04 Asia/Vientiane] PHP   4. Controller->render($view = 'home/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]]) C:\wamp64\www\jomd\controllers\HomeController.php:8
+[03-Dec-2024 13:04:04 Asia/Vientiane] PHP   5. include() C:\wamp64\www\jomd\core\Controller.php:6
+[03-Dec-2024 13:17:41 Asia/Vientiane] PHP Warning:  Undefined variable $file in C:\wamp64\www\jomd\views\home\index.php on line 12
+[03-Dec-2024 13:17:41 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 13:17:41 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 13:17:41 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:27
+[03-Dec-2024 13:17:41 Asia/Vientiane] PHP   3. HomeController->index(NULL) C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 13:17:41 Asia/Vientiane] PHP   4. Controller->render($view = 'home/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]]) C:\wamp64\www\jomd\controllers\HomeController.php:8
+[03-Dec-2024 13:17:41 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 13:22:00 Asia/Vientiane] PHP Warning:  Undefined variable $file in C:\wamp64\www\jomd\views\home\index.php on line 10
+[03-Dec-2024 13:22:00 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 13:22:00 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 13:22:00 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:27
+[03-Dec-2024 13:22:00 Asia/Vientiane] PHP   3. HomeController->index(NULL) C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 13:22:00 Asia/Vientiane] PHP   4. Controller->render($view = 'home/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]]) C:\wamp64\www\jomd\controllers\HomeController.php:8
+[03-Dec-2024 13:22:00 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 13:22:09 Asia/Vientiane] PHP Warning:  Undefined variable $file in C:\wamp64\www\jomd\views\home\index.php on line 10
+[03-Dec-2024 13:22:09 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 13:22:09 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 13:22:09 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:27
+[03-Dec-2024 13:22:09 Asia/Vientiane] PHP   3. HomeController->index(NULL) C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 13:22:09 Asia/Vientiane] PHP   4. Controller->render($view = 'home/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]]) C:\wamp64\www\jomd\controllers\HomeController.php:8
+[03-Dec-2024 13:22:09 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 13:27:17 Asia/Vientiane] PHP Warning:  Undefined variable $file in C:\wamp64\www\jomd\views\home\index.php on line 10
+[03-Dec-2024 13:27:17 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 13:27:17 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 13:27:17 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:27
+[03-Dec-2024 13:27:17 Asia/Vientiane] PHP   3. HomeController->index(NULL) C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 13:27:17 Asia/Vientiane] PHP   4. Controller->render($view = 'home/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]]) C:\wamp64\www\jomd\controllers\HomeController.php:8
+[03-Dec-2024 13:27:17 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 13:27:17 Asia/Vientiane] PHP Fatal error:  Uncaught Error: Class "Helper" not found in C:\wamp64\www\jomd\views\home\index.php:21
+Stack trace:
+#0 C:\wamp64\www\jomd\core\Controller.php(18): require()
+#1 C:\wamp64\www\jomd\controllers\HomeController.php(8): Controller->render('home/index', Array)
+#2 C:\wamp64\www\jomd\Router.php(34): HomeController->index(NULL)
+#3 C:\wamp64\www\jomd\index.php(27): Router->RouterProvider()
+#4 {main}
+  thrown in C:\wamp64\www\jomd\views\home\index.php on line 21
+[03-Dec-2024 13:27:43 Asia/Vientiane] PHP Warning:  Undefined variable $file in C:\wamp64\www\jomd\views\home\index.php on line 10
+[03-Dec-2024 13:27:43 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 13:27:43 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 13:27:43 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:27
+[03-Dec-2024 13:27:43 Asia/Vientiane] PHP   3. HomeController->index(NULL) C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 13:27:43 Asia/Vientiane] PHP   4. Controller->render($view = 'home/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]]) C:\wamp64\www\jomd\controllers\HomeController.php:8
+[03-Dec-2024 13:27:43 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 13:27:43 Asia/Vientiane] PHP Fatal error:  Uncaught Error: Class "Helper" not found in C:\wamp64\www\jomd\views\home\index.php:21
+Stack trace:
+#0 C:\wamp64\www\jomd\core\Controller.php(18): require()
+#1 C:\wamp64\www\jomd\controllers\HomeController.php(8): Controller->render('home/index', Array)
+#2 C:\wamp64\www\jomd\Router.php(34): HomeController->index(NULL)
+#3 C:\wamp64\www\jomd\index.php(27): Router->RouterProvider()
+#4 {main}
+  thrown in C:\wamp64\www\jomd\views\home\index.php on line 21
+[03-Dec-2024 13:29:14 Asia/Vientiane] PHP Warning:  Undefined variable $file in C:\wamp64\www\jomd\views\home\index.php on line 10
+[03-Dec-2024 13:29:14 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 13:29:14 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 13:29:14 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:27
+[03-Dec-2024 13:29:14 Asia/Vientiane] PHP   3. HomeController->index(NULL) C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 13:29:14 Asia/Vientiane] PHP   4. Controller->render($view = 'home/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]]) C:\wamp64\www\jomd\controllers\HomeController.php:8
+[03-Dec-2024 13:29:14 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 13:29:14 Asia/Vientiane] PHP Fatal error:  Uncaught Error: Class "Helper" not found in C:\wamp64\www\jomd\views\home\index.php:21
+Stack trace:
+#0 C:\wamp64\www\jomd\core\Controller.php(18): require()
+#1 C:\wamp64\www\jomd\controllers\HomeController.php(8): Controller->render('home/index', Array)
+#2 C:\wamp64\www\jomd\Router.php(34): HomeController->index(NULL)
+#3 C:\wamp64\www\jomd\index.php(27): Router->RouterProvider()
+#4 {main}
+  thrown in C:\wamp64\www\jomd\views\home\index.php on line 21
+[03-Dec-2024 13:29:36 Asia/Vientiane] PHP Fatal error:  Uncaught Error: Class "Helper" not found in C:\wamp64\www\jomd\views\home\index.php:21
+Stack trace:
+#0 C:\wamp64\www\jomd\core\Controller.php(18): require()
+#1 C:\wamp64\www\jomd\controllers\HomeController.php(8): Controller->render('home/index', Array)
+#2 C:\wamp64\www\jomd\Router.php(34): HomeController->index(NULL)
+#3 C:\wamp64\www\jomd\index.php(27): Router->RouterProvider()
+#4 {main}
+  thrown in C:\wamp64\www\jomd\views\home\index.php on line 21
+[03-Dec-2024 13:29:54 Asia/Vientiane] PHP Fatal error:  Uncaught Error: Class "Helper" not found in C:\wamp64\www\jomd\views\home\index.php:21
+Stack trace:
+#0 C:\wamp64\www\jomd\core\Controller.php(18): require()
+#1 C:\wamp64\www\jomd\controllers\HomeController.php(8): Controller->render('home/index', Array)
+#2 C:\wamp64\www\jomd\Router.php(34): HomeController->index(NULL)
+#3 C:\wamp64\www\jomd\index.php(27): Router->RouterProvider()
+#4 {main}
+  thrown in C:\wamp64\www\jomd\views\home\index.php on line 21
+[03-Dec-2024 13:29:58 Asia/Vientiane] PHP Fatal error:  Uncaught Error: Class "Helper" not found in C:\wamp64\www\jomd\views\home\index.php:21
+Stack trace:
+#0 C:\wamp64\www\jomd\core\Controller.php(18): require()
+#1 C:\wamp64\www\jomd\controllers\HomeController.php(8): Controller->render('home/index', Array)
+#2 C:\wamp64\www\jomd\Router.php(34): HomeController->index(NULL)
+#3 C:\wamp64\www\jomd\index.php(27): Router->RouterProvider()
+#4 {main}
+  thrown in C:\wamp64\www\jomd\views\home\index.php on line 21
+[03-Dec-2024 13:29:59 Asia/Vientiane] PHP Fatal error:  Uncaught Error: Class "Helper" not found in C:\wamp64\www\jomd\views\home\index.php:21
+Stack trace:
+#0 C:\wamp64\www\jomd\core\Controller.php(18): require()
+#1 C:\wamp64\www\jomd\controllers\HomeController.php(8): Controller->render('home/index', Array)
+#2 C:\wamp64\www\jomd\Router.php(34): HomeController->index(NULL)
+#3 C:\wamp64\www\jomd\index.php(27): Router->RouterProvider()
+#4 {main}
+  thrown in C:\wamp64\www\jomd\views\home\index.php on line 21
+[03-Dec-2024 14:10:53 Asia/Vientiane] PHP Fatal error:  Uncaught Error: Class "Helper" not found in C:\wamp64\www\jomd\views\home\index.php:21
+Stack trace:
+#0 C:\wamp64\www\jomd\core\Controller.php(18): require()
+#1 C:\wamp64\www\jomd\controllers\HomeController.php(8): Controller->render('home/index', Array)
+#2 C:\wamp64\www\jomd\Router.php(34): HomeController->index(NULL)
+#3 C:\wamp64\www\jomd\index.php(27): Router->RouterProvider()
+#4 {main}
+  thrown in C:\wamp64\www\jomd\views\home\index.php on line 21
+[03-Dec-2024 14:11:08 Asia/Vientiane] PHP Fatal error:  Uncaught Error: Class "Helper" not found in C:\wamp64\www\jomd\views\home\index.php:21
+Stack trace:
+#0 C:\wamp64\www\jomd\core\Controller.php(18): require()
+#1 C:\wamp64\www\jomd\controllers\HomeController.php(8): Controller->render('home/index', Array)
+#2 C:\wamp64\www\jomd\Router.php(34): HomeController->index(NULL)
+#3 C:\wamp64\www\jomd\index.php(27): Router->RouterProvider()
+#4 {main}
+  thrown in C:\wamp64\www\jomd\views\home\index.php on line 21
+[03-Dec-2024 14:11:21 Asia/Vientiane] PHP Fatal error:  Uncaught Error: Class "Helper" not found in C:\wamp64\www\jomd\views\home\index.php:21
+Stack trace:
+#0 C:\wamp64\www\jomd\core\Controller.php(18): require()
+#1 C:\wamp64\www\jomd\controllers\HomeController.php(8): Controller->render('home/index', Array)
+#2 C:\wamp64\www\jomd\Router.php(34): HomeController->index(NULL)
+#3 C:\wamp64\www\jomd\index.php(27): Router->RouterProvider()
+#4 {main}
+  thrown in C:\wamp64\www\jomd\views\home\index.php on line 21
+[03-Dec-2024 14:11:35 Asia/Vientiane] PHP Fatal error:  Uncaught Error: Class "Helper" not found in C:\wamp64\www\jomd\views\home\index.php:21
+Stack trace:
+#0 C:\wamp64\www\jomd\core\Controller.php(18): require()
+#1 C:\wamp64\www\jomd\controllers\HomeController.php(8): Controller->render('home/index', Array)
+#2 C:\wamp64\www\jomd\Router.php(34): HomeController->index(NULL)
+#3 C:\wamp64\www\jomd\index.php(27): Router->RouterProvider()
+#4 {main}
+  thrown in C:\wamp64\www\jomd\views\home\index.php on line 21
+[03-Dec-2024 14:11:46 Asia/Vientiane] PHP Fatal error:  Uncaught Error: Class "Helper" not found in C:\wamp64\www\jomd\views\home\index.php:21
+Stack trace:
+#0 C:\wamp64\www\jomd\core\Controller.php(18): require()
+#1 C:\wamp64\www\jomd\controllers\HomeController.php(8): Controller->render('home/index', Array)
+#2 C:\wamp64\www\jomd\Router.php(34): HomeController->index(NULL)
+#3 C:\wamp64\www\jomd\index.php(27): Router->RouterProvider()
+#4 {main}
+  thrown in C:\wamp64\www\jomd\views\home\index.php on line 21
+[03-Dec-2024 14:12:57 Asia/Vientiane] PHP Fatal error:  Uncaught Error: Class "Helper" not found in C:\wamp64\www\jomd\views\home\index.php:10
+Stack trace:
+#0 C:\wamp64\www\jomd\core\Controller.php(18): require()
+#1 C:\wamp64\www\jomd\controllers\HomeController.php(8): Controller->render('home/index', Array)
+#2 C:\wamp64\www\jomd\Router.php(34): HomeController->index(NULL)
+#3 C:\wamp64\www\jomd\index.php(27): Router->RouterProvider()
+#4 {main}
+  thrown in C:\wamp64\www\jomd\views\home\index.php on line 10
+[03-Dec-2024 14:22:48 Asia/Vientiane] PHP Warning:  Undefined variable $file in C:\wamp64\www\jomd\controllers\HomeController.php on line 15
+[03-Dec-2024 14:22:48 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:22:48 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:22:48 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:22:48 Asia/Vientiane] PHP   3. HomeController->viewfile($id = '4') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:22:48 Asia/Vientiane] PHP Warning:  Undefined variable $file in C:\wamp64\www\jomd\controllers\HomeController.php on line 15
+[03-Dec-2024 14:22:48 Asia/Vientiane] PHP Warning:  Undefined variable $file in C:\wamp64\www\jomd\controllers\HomeController.php on line 15
+[03-Dec-2024 14:22:48 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:22:48 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:22:48 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:22:48 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:22:48 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:22:48 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:22:48 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'public') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:22:48 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'css') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:36:15 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 20
+[03-Dec-2024 14:36:15 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:36:15 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:36:15 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:36:15 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'css') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:36:15 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:36:15 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 14:36:15 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 20
+[03-Dec-2024 14:36:15 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:36:15 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:36:15 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:36:15 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'public') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:36:15 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:36:15 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 14:36:15 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 20
+[03-Dec-2024 14:36:15 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:36:15 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:36:15 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:36:15 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'public') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:36:15 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:36:15 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 14:36:28 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 20
+[03-Dec-2024 14:36:28 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:36:28 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:36:28 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:36:28 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'css') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:36:28 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:36:28 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 20
+[03-Dec-2024 14:36:28 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 14:36:28 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:36:28 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:36:28 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:36:28 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'public') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:36:28 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:36:28 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 14:36:28 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 20
+[03-Dec-2024 14:36:28 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:36:28 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:36:28 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:36:28 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'public') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:36:28 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:36:28 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 14:36:30 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 20
+[03-Dec-2024 14:36:30 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:36:30 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 20
+[03-Dec-2024 14:36:30 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:36:30 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:36:30 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:36:30 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:36:30 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'css') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:36:30 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:36:30 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:36:30 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'public') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:36:30 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 14:36:30 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:36:30 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 14:36:30 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 20
+[03-Dec-2024 14:36:30 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:36:30 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:36:30 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:36:30 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'public') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:36:30 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:36:30 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 14:36:35 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 20
+[03-Dec-2024 14:36:35 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 20
+[03-Dec-2024 14:36:35 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:36:35 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:36:35 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:36:35 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:36:35 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:36:35 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:36:35 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'css') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:36:35 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'public') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:36:35 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:36:35 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:36:35 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 14:36:35 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 14:36:35 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 20
+[03-Dec-2024 14:36:35 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:36:35 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:36:35 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:36:35 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'public') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:36:35 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:36:35 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 14:36:57 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 20
+[03-Dec-2024 14:36:57 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:36:57 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:36:57 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:36:57 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'css') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:36:57 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 20
+[03-Dec-2024 14:36:57 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:36:57 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:36:57 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 14:36:57 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:36:57 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:36:57 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'public') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:36:57 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:36:57 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 14:36:57 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 20
+[03-Dec-2024 14:36:57 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:36:57 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:36:57 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:36:57 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'public') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:36:57 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:36:57 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 14:37:03 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 20
+[03-Dec-2024 14:37:03 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:37:03 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:37:03 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:37:03 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'css') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:37:03 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:37:03 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 14:37:03 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 20
+[03-Dec-2024 14:37:03 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:37:03 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:37:03 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:37:03 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'public') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:37:03 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:37:03 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 14:37:03 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 20
+[03-Dec-2024 14:37:03 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:37:03 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:37:03 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:37:03 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'public') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:37:03 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:37:03 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 14:37:38 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 20
+[03-Dec-2024 14:37:38 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:37:38 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:37:38 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:37:38 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'css') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:37:38 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:37:38 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 14:37:38 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 20
+[03-Dec-2024 14:37:38 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:37:38 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:37:38 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:37:38 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'public') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:37:38 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:37:38 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 14:37:38 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 20
+[03-Dec-2024 14:37:38 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:37:38 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:37:38 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:37:38 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'public') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:37:38 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:37:38 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 14:37:48 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 20
+[03-Dec-2024 14:37:48 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:37:48 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:37:48 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:37:48 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'css') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:37:48 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:37:48 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 14:37:48 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 20
+[03-Dec-2024 14:37:48 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:37:48 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:37:48 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:37:48 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'public') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:37:48 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:37:48 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 14:37:53 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 20
+[03-Dec-2024 14:37:53 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:37:53 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:37:53 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:37:53 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'css') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:37:53 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:37:53 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 14:37:53 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 20
+[03-Dec-2024 14:37:53 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:37:53 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:37:53 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:37:53 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'public') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:37:53 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:37:53 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 14:38:19 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 16
+[03-Dec-2024 14:38:19 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:38:19 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:38:19 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:38:19 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'css') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:38:19 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:38:19 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 14:38:19 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 16
+[03-Dec-2024 14:38:19 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:38:19 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:38:19 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:38:19 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'public') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:38:19 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:38:19 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 14:51:03 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 16
+[03-Dec-2024 14:51:03 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:51:03 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:51:03 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:51:03 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'css') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:51:03 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:51:03 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 14:51:03 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 16
+[03-Dec-2024 14:51:03 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:51:03 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:51:03 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:51:03 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'public') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:51:03 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:51:03 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 14:51:07 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 16
+[03-Dec-2024 14:51:07 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:51:07 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:51:07 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:51:07 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'css') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:51:07 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:51:07 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 14:51:07 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 16
+[03-Dec-2024 14:51:07 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:51:07 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:51:07 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:51:07 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'public') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:51:07 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:51:07 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 14:51:15 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 16
+[03-Dec-2024 14:51:15 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:51:15 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:51:15 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:51:15 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'css') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:51:15 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:51:15 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 14:51:15 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 16
+[03-Dec-2024 14:51:15 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:51:15 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:51:15 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:51:15 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'public') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:51:15 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:51:15 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 14:51:35 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 16
+[03-Dec-2024 14:51:35 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:51:35 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:51:35 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 16
+[03-Dec-2024 14:51:35 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:51:35 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:51:35 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'css') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:51:35 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:51:35 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:51:35 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:28
+[03-Dec-2024 14:51:35 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 14:51:35 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'public') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:51:35 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:51:35 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 14:52:50 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 16
+[03-Dec-2024 14:52:50 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:52:50 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:52:50 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:29
+[03-Dec-2024 14:52:50 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 16
+[03-Dec-2024 14:52:50 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'css') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:52:50 Asia/Vientiane] PHP Stack trace:
+[03-Dec-2024 14:52:50 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:52:50 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[03-Dec-2024 14:52:50 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[03-Dec-2024 14:52:50 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:29
+[03-Dec-2024 14:52:50 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'public') C:\wamp64\www\jomd\Router.php:34
+[03-Dec-2024 14:52:50 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[03-Dec-2024 14:52:50 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[04-Dec-2024 08:43:27 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 16
+[04-Dec-2024 08:43:27 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 08:43:27 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 08:43:27 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:29
+[04-Dec-2024 08:43:27 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'public') C:\wamp64\www\jomd\Router.php:34
+[04-Dec-2024 08:43:27 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[04-Dec-2024 08:43:27 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[04-Dec-2024 08:43:27 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 16
+[04-Dec-2024 08:43:27 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 08:43:27 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 08:43:27 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 16
+[04-Dec-2024 08:43:27 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:29
+[04-Dec-2024 08:43:27 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 08:43:27 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'public') C:\wamp64\www\jomd\Router.php:34
+[04-Dec-2024 08:43:27 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 08:43:27 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[04-Dec-2024 08:43:27 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:29
+[04-Dec-2024 08:43:27 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[04-Dec-2024 08:43:27 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'css') C:\wamp64\www\jomd\Router.php:34
+[04-Dec-2024 08:43:27 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[04-Dec-2024 08:43:27 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[04-Dec-2024 08:44:13 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 16
+[04-Dec-2024 08:44:13 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 16
+[04-Dec-2024 08:44:13 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 08:44:13 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 08:44:13 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 08:44:13 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 08:44:13 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:29
+[04-Dec-2024 08:44:13 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:29
+[04-Dec-2024 08:44:13 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'public') C:\wamp64\www\jomd\Router.php:34
+[04-Dec-2024 08:44:13 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'css') C:\wamp64\www\jomd\Router.php:34
+[04-Dec-2024 08:44:13 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[04-Dec-2024 08:44:13 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[04-Dec-2024 08:44:13 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[04-Dec-2024 08:44:13 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[04-Dec-2024 08:44:13 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 16
+[04-Dec-2024 08:44:13 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 08:44:13 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 08:44:13 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:29
+[04-Dec-2024 08:44:13 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'public') C:\wamp64\www\jomd\Router.php:34
+[04-Dec-2024 08:44:13 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[04-Dec-2024 08:44:13 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[04-Dec-2024 08:44:15 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 16
+[04-Dec-2024 08:44:15 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 08:44:15 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 08:44:15 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:29
+[04-Dec-2024 08:44:15 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'css') C:\wamp64\www\jomd\Router.php:34
+[04-Dec-2024 08:44:15 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[04-Dec-2024 08:44:15 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[04-Dec-2024 08:44:15 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 16
+[04-Dec-2024 08:44:15 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 08:44:15 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 08:44:15 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:29
+[04-Dec-2024 08:44:15 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'public') C:\wamp64\www\jomd\Router.php:34
+[04-Dec-2024 08:44:15 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[04-Dec-2024 08:44:15 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[04-Dec-2024 08:44:15 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 16
+[04-Dec-2024 08:44:15 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 08:44:15 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 08:44:15 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:29
+[04-Dec-2024 08:44:15 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'public') C:\wamp64\www\jomd\Router.php:34
+[04-Dec-2024 08:44:15 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[04-Dec-2024 08:44:15 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[04-Dec-2024 08:44:17 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 16
+[04-Dec-2024 08:44:17 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 08:44:17 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 08:44:17 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:29
+[04-Dec-2024 08:44:17 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 16
+[04-Dec-2024 08:44:17 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 08:44:17 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'css') C:\wamp64\www\jomd\Router.php:34
+[04-Dec-2024 08:44:17 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 08:44:17 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[04-Dec-2024 08:44:17 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:29
+[04-Dec-2024 08:44:17 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[04-Dec-2024 08:44:17 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'public') C:\wamp64\www\jomd\Router.php:34
+[04-Dec-2024 08:44:17 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[04-Dec-2024 08:44:17 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[04-Dec-2024 08:44:17 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 16
+[04-Dec-2024 08:44:17 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 08:44:17 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 08:44:17 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:29
+[04-Dec-2024 08:44:17 Asia/Vientiane] PHP   3. HomeController->viewfile($id = 'public') C:\wamp64\www\jomd\Router.php:34
+[04-Dec-2024 08:44:17 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\HomeController.php:15
+[04-Dec-2024 08:44:17 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[04-Dec-2024 09:19:56 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 16
+[04-Dec-2024 09:19:56 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 16
+[04-Dec-2024 09:19:56 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 09:19:56 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 09:19:56 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 09:19:56 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 09:19:56 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:11
+[04-Dec-2024 09:19:56 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:11
+[04-Dec-2024 09:19:56 Asia/Vientiane] PHP   3. ManageController->view($id = 'css') C:\wamp64\www\jomd\Router.php:34
+[04-Dec-2024 09:19:56 Asia/Vientiane] PHP   3. ManageController->view($id = 'public') C:\wamp64\www\jomd\Router.php:34
+[04-Dec-2024 09:19:56 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\ManageController.php:15
+[04-Dec-2024 09:19:56 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\ManageController.php:15
+[04-Dec-2024 09:19:56 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[04-Dec-2024 09:19:56 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[04-Dec-2024 09:19:56 Asia/Vientiane] PHP Warning:  Trying to access array offset on value of type null in C:\wamp64\www\jomd\views\home\viewfile.php on line 16
+[04-Dec-2024 09:19:56 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 09:19:56 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 09:19:56 Asia/Vientiane] PHP   2. Router->RouterProvider() C:\wamp64\www\jomd\index.php:11
+[04-Dec-2024 09:19:56 Asia/Vientiane] PHP   3. ManageController->view($id = 'public') C:\wamp64\www\jomd\Router.php:34
+[04-Dec-2024 09:19:56 Asia/Vientiane] PHP   4. Controller->render($view = 'home/viewfile', $data = ['file' => NULL]) C:\wamp64\www\jomd\controllers\ManageController.php:15
+[04-Dec-2024 09:19:56 Asia/Vientiane] PHP   5. require() C:\wamp64\www\jomd\core\Controller.php:18
+[04-Dec-2024 10:53:46 Asia/Vientiane] [2024-12-04 10:53:46] ບໍ່ສາມາດດຶງຂໍ້ມູນໄຟລ໌ທັງໝົດໄດ້: Query error: Unable to prepare statement: 1, no such column: is_deleted
+Stack trace:
+#0 C:\wamp64\www\jomd\core\FileDatabase.php(159): Database->query('SELECT * FROM m...', Array)
+#1 C:\wamp64\www\jomd\controllers\HomeController.php(13): FileDatabase->getAllFiles()
+#2 C:\wamp64\www\jomd\Router.php(34): HomeController->index(NULL)
+#3 C:\wamp64\www\jomd\index.php(13): Router->RouterProvider()
+#4 {main}
+[04-Dec-2024 10:54:17 Asia/Vientiane] [2024-12-04 10:54:17] ບໍ່ສາມາດດຶງຂໍ້ມູນໄຟລ໌ທັງໝົດໄດ້: Query error: Unable to prepare statement: 1, no such column: is_deleted
+Stack trace:
+#0 C:\wamp64\www\jomd\core\FileDatabase.php(159): Database->query('SELECT * FROM m...', Array)
+#1 C:\wamp64\www\jomd\controllers\HomeController.php(13): FileDatabase->getAllFiles()
+#2 C:\wamp64\www\jomd\Router.php(34): HomeController->index(NULL)
+#3 C:\wamp64\www\jomd\index.php(13): Router->RouterProvider()
+#4 {main}
+[04-Dec-2024 10:54:45 Asia/Vientiane] [2024-12-04 10:54:45] ບໍ່ສາມາດດຶງຂໍ້ມູນໄຟລ໌ທັງໝົດໄດ້Query error: Unable to prepare statement: 1, no such column: is_deleted: Query error: Unable to prepare statement: 1, no such column: is_deleted
+Stack trace:
+#0 C:\wamp64\www\jomd\core\FileDatabase.php(159): Database->query('SELECT * FROM m...', Array)
+#1 C:\wamp64\www\jomd\controllers\HomeController.php(13): FileDatabase->getAllFiles()
+#2 C:\wamp64\www\jomd\Router.php(34): HomeController->index(NULL)
+#3 C:\wamp64\www\jomd\index.php(13): Router->RouterProvider()
+#4 {main}
+[04-Dec-2024 10:55:11 Asia/Vientiane] [2024-12-04 10:55:11] ບໍ່ສາມາດດຶງຂໍ້ມູນໄຟລ໌ໄດ້: Query error: Unable to prepare statement: 1, no such column: is_deleted
+Stack trace:
+#0 C:\wamp64\www\jomd\core\Database.php(111): Database->query('SELECT * FROM m...', Array)
+#1 C:\wamp64\www\jomd\core\FileDatabase.php(128): Database->queryOne('SELECT * FROM m...', Array)
+#2 C:\wamp64\www\jomd\controllers\HomeController.php(19): FileDatabase->getFile(4)
+#3 C:\wamp64\www\jomd\Router.php(34): HomeController->viewfile('4')
+#4 C:\wamp64\www\jomd\index.php(13): Router->RouterProvider()
+#5 {main}
+[04-Dec-2024 10:55:25 Asia/Vientiane] [2024-12-04 10:55:25] ບໍ່ສາມາດດຶງຂໍ້ມູນໄຟລ໌ໄດ້: Query error: Unable to prepare statement: 1, no such column: is_deleted
+Stack trace:
+#0 C:\wamp64\www\jomd\core\Database.php(111): Database->query('SELECT * FROM m...', Array)
+#1 C:\wamp64\www\jomd\core\FileDatabase.php(128): Database->queryOne('SELECT * FROM m...', Array)
+#2 C:\wamp64\www\jomd\controllers\HomeController.php(19): FileDatabase->getFile(4)
+#3 C:\wamp64\www\jomd\Router.php(34): HomeController->viewfile('4')
+#4 C:\wamp64\www\jomd\index.php(13): Router->RouterProvider()
+#5 {main}
+[04-Dec-2024 10:55:26 Asia/Vientiane] [2024-12-04 10:55:26] ບໍ່ສາມາດດຶງຂໍ້ມູນໄຟລ໌ໄດ້: Query error: Unable to prepare statement: 1, no such column: is_deleted
+Stack trace:
+#0 C:\wamp64\www\jomd\core\Database.php(111): Database->query('SELECT * FROM m...', Array)
+#1 C:\wamp64\www\jomd\core\FileDatabase.php(128): Database->queryOne('SELECT * FROM m...', Array)
+#2 C:\wamp64\www\jomd\controllers\HomeController.php(19): FileDatabase->getFile(4)
+#3 C:\wamp64\www\jomd\Router.php(34): HomeController->viewfile('4')
+#4 C:\wamp64\www\jomd\index.php(13): Router->RouterProvider()
+#5 {main}
+[04-Dec-2024 10:55:42 Asia/Vientiane] [2024-12-04 10:55:42] ເກີດຂໍ້ຜິດພາດໃນການເຊື່ອມຕໍ່ຖານຂໍ້ມູນ: database is locked
+Stack trace:
+#0 C:\wamp64\www\jomd\core\Database.php(41): SQLite3->exec('PRAGMA journal_...')
+#1 C:\wamp64\www\jomd\core\Database.php(21): Database->initializeDatabase()
+#2 C:\wamp64\www\jomd\core\Database.php(33): Database->__construct()
+#3 C:\wamp64\www\jomd\controllers\HomeController.php(9): Database::getInstance()
+#4 C:\wamp64\www\jomd\Router.php(30): HomeController->__construct()
+#5 C:\wamp64\www\jomd\index.php(13): Router->RouterProvider()
+#6 {main}
+[04-Dec-2024 10:57:34 Asia/Vientiane] [2024-12-04 10:57:34] ເກີດຂໍ້ຜິດພາດໃນການເຊື່ອມຕໍ່ຖານຂໍ້ມູນ: database is locked
+Stack trace:
+#0 C:\wamp64\www\jomd\core\Database.php(41): SQLite3->exec('PRAGMA journal_...')
+#1 C:\wamp64\www\jomd\core\Database.php(21): Database->initializeDatabase()
+#2 C:\wamp64\www\jomd\core\Database.php(33): Database->__construct()
+#3 C:\wamp64\www\jomd\controllers\HomeController.php(9): Database::getInstance()
+#4 C:\wamp64\www\jomd\Router.php(30): HomeController->__construct()
+#5 C:\wamp64\www\jomd\index.php(13): Router->RouterProvider()
+#6 {main}
+[04-Dec-2024 11:06:08 Asia/Vientiane] [2024-12-04 11:06:08] ເກີດຂໍ້ຜິດພາດໃນການເຊື່ອມຕໍ່ຖານຂໍ້ມູນ: database is locked
+Stack trace:
+#0 C:\wamp64\www\jomd\core\Database.php(41): SQLite3->exec('PRAGMA journal_...')
+#1 C:\wamp64\www\jomd\core\Database.php(21): Database->initializeDatabase()
+#2 C:\wamp64\www\jomd\core\Database.php(33): Database->__construct()
+#3 C:\wamp64\www\jomd\controllers\ManageController.php(8): Database::getInstance()
+#4 C:\wamp64\www\jomd\Router.php(30): ManageController->__construct()
+#5 C:\wamp64\www\jomd\index.php(13): Router->RouterProvider()
+#6 {main}
+[04-Dec-2024 11:08:18 Asia/Vientiane] [2024-12-04 11:08:18] ເກີດຂໍ້ຜິດພາດໃນການເຊື່ອມຕໍ່ຖານຂໍ້ມູນ: database is locked
+Stack trace:
+#0 C:\wamp64\www\jomd\core\Database.php(41): SQLite3->exec('PRAGMA journal_...')
+#1 C:\wamp64\www\jomd\core\Database.php(21): Database->initializeDatabase()
+#2 C:\wamp64\www\jomd\core\Database.php(33): Database->__construct()
+#3 C:\wamp64\www\jomd\controllers\ManageController.php(8): Database::getInstance()
+#4 C:\wamp64\www\jomd\Router.php(30): ManageController->__construct()
+#5 C:\wamp64\www\jomd\index.php(13): Router->RouterProvider()
+#6 {main}
+[04-Dec-2024 11:15:56 Asia/Vientiane] [2024-12-04 11:15:56] ເກີດຂໍ້ຜິດພາດໃນການເຊື່ອມຕໍ່ຖານຂໍ້ມູນ: database is locked
+Stack trace:
+#0 C:\wamp64\www\jomd\core\Database.php(41): SQLite3->exec('PRAGMA journal_...')
+#1 C:\wamp64\www\jomd\core\Database.php(21): Database->initializeDatabase()
+#2 C:\wamp64\www\jomd\core\Database.php(33): Database->__construct()
+#3 C:\wamp64\www\jomd\controllers\ManageController.php(8): Database::getInstance()
+#4 C:\wamp64\www\jomd\Router.php(30): ManageController->__construct()
+#5 C:\wamp64\www\jomd\index.php(13): Router->RouterProvider()
+#6 {main}
+[04-Dec-2024 11:17:23 Asia/Vientiane] Method public not found in controller ManageController
+[04-Dec-2024 11:17:23 Asia/Vientiane] Method css not found in controller ManageController
+[04-Dec-2024 11:17:23 Asia/Vientiane] Method public not found in controller ManageController
+[04-Dec-2024 11:17:29 Asia/Vientiane] Method public not found in controller ManageController
+[04-Dec-2024 11:17:29 Asia/Vientiane] Method css not found in controller ManageController
+[04-Dec-2024 11:17:29 Asia/Vientiane] Method public not found in controller ManageController
+[04-Dec-2024 11:18:49 Asia/Vientiane] Method public not found in controller ManageController
+[04-Dec-2024 11:18:49 Asia/Vientiane] Method css not found in controller ManageController
+[04-Dec-2024 11:18:49 Asia/Vientiane] Method public not found in controller ManageController
+[04-Dec-2024 11:19:45 Asia/Vientiane] Method css not found in controller ManageController
+[04-Dec-2024 11:19:54 Asia/Vientiane] Method css not found in controller ManageController
+[04-Dec-2024 11:20:04 Asia/Vientiane] Method css not found in controller ManageController
+[04-Dec-2024 11:20:09 Asia/Vientiane] Controller not found: CssController
+[04-Dec-2024 11:22:17 Asia/Vientiane] Controller not found: CssController
+[04-Dec-2024 11:23:48 Asia/Vientiane] Controller not found: JomdController
+[04-Dec-2024 11:23:48 Asia/Vientiane] Controller not found: JomdController
+[04-Dec-2024 11:26:14 Asia/Vientiane] Controller not found: JomdController
+[04-Dec-2024 11:26:14 Asia/Vientiane] Controller not found: JomdController
+[04-Dec-2024 11:26:17 Asia/Vientiane] Controller not found: JomdController
+[04-Dec-2024 11:26:17 Asia/Vientiane] Controller not found: JomdController
+[04-Dec-2024 14:14:49 Asia/Vientiane] PHP Warning:  Undefined array key "file_name" in C:\wamp64\www\jomd\core\FileDatabase.php on line 117
+[04-Dec-2024 14:14:49 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 14:14:49 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 14:14:49 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:13
+[04-Dec-2024 14:14:49 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'store', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[04-Dec-2024 14:14:49 Asia/Vientiane] PHP   4. ManageController->store(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[04-Dec-2024 14:14:49 Asia/Vientiane] PHP   5. FileDatabase->saveFile($data = ['id' => '', 'title' => 'ss', 'file' => 'manual.md', 'content' => 'RewriteEngine On\r\nRewriteBase /jomd/\r\n\r\n# ບໍ່ rewrite ຖ້າເປັນໄຟລ໌ທີ່ມີຢູ່ແລ້ວ\r\nRewriteCond %{REQUEST_FILENAME} !-f\r\nRewriteCond %{REQUEST_FILENAME} !-d\r\n\r\n# Rewrite ທຸກ request ໄປຫາ index.php\r\nRewriteRule ^(.*)$ index.php [QSA,L]']) C:\wamp64\www\jomd\controllers\ManageController.php:25
+[04-Dec-2024 14:14:49 Asia/Vientiane] PHP   6. FileDatabase->updateFileRecord($data = ['id' => '', 'title' => 'ss', 'file' => 'manual.md', 'content' => 'RewriteEngine On\r\nRewriteBase /jomd/\r\n\r\n# ບໍ່ rewrite ຖ້າເປັນໄຟລ໌ທີ່ມີຢູ່ແລ້ວ\r\nRewriteCond %{REQUEST_FILENAME} !-f\r\nRewriteCond %{REQUEST_FILENAME} !-d\r\n\r\n# Rewrite ທຸກ request ໄປຫາ index.php\r\nRewriteRule ^(.*)$ index.php [QSA,L]']) C:\wamp64\www\jomd\core\FileDatabase.php:59
+[04-Dec-2024 14:14:49 Asia/Vientiane] PHP   7. FileDatabase->bindFileParams($stmt = class SQLite3Stmt {  }, $data = ['id' => '', 'title' => 'ss', 'file' => 'manual.md', 'content' => 'RewriteEngine On\r\nRewriteBase /jomd/\r\n\r\n# ບໍ່ rewrite ຖ້າເປັນໄຟລ໌ທີ່ມີຢູ່ແລ້ວ\r\nRewriteCond %{REQUEST_FILENAME} !-f\r\nRewriteCond %{REQUEST_FILENAME} !-d\r\n\r\n# Rewrite ທຸກ request ໄປຫາ index.php\r\nRewriteRule ^(.*)$ index.php [QSA,L]']) C:\wamp64\www\jomd\core\FileDatabase.php:108
+[04-Dec-2024 14:14:49 Asia/Vientiane] Controller not found: ManagemanageController
+[04-Dec-2024 14:16:07 Asia/Vientiane] PHP Warning:  Undefined array key "file_name" in C:\wamp64\www\jomd\core\FileDatabase.php on line 117
+[04-Dec-2024 14:16:07 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 14:16:07 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 14:16:07 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:13
+[04-Dec-2024 14:16:07 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'store', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[04-Dec-2024 14:16:07 Asia/Vientiane] PHP   4. ManageController->store(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[04-Dec-2024 14:16:07 Asia/Vientiane] PHP   5. FileDatabase->saveFile($data = ['id' => '', 'title' => 'sss', 'file' => 'manual.md', 'content' => 'RewriteEngine On\r\nRewriteBase /jomd/\r\n\r\n# ບໍ່ rewrite ຖ້າເປັນໄຟລ໌ທີ່ມີຢູ່ແລ້ວ\r\nRewriteCond %{REQUEST_FILENAME} !-f\r\nRewriteCond %{REQUEST_FILENAME} !-d\r\n\r\n# Rewrite ທຸກ request ໄປຫາ index.php\r\nRewriteRule ^(.*)$ index.php [QSA,L]']) C:\wamp64\www\jomd\controllers\ManageController.php:25
+[04-Dec-2024 14:16:07 Asia/Vientiane] PHP   6. FileDatabase->updateFileRecord($data = ['id' => '', 'title' => 'sss', 'file' => 'manual.md', 'content' => 'RewriteEngine On\r\nRewriteBase /jomd/\r\n\r\n# ບໍ່ rewrite ຖ້າເປັນໄຟລ໌ທີ່ມີຢູ່ແລ້ວ\r\nRewriteCond %{REQUEST_FILENAME} !-f\r\nRewriteCond %{REQUEST_FILENAME} !-d\r\n\r\n# Rewrite ທຸກ request ໄປຫາ index.php\r\nRewriteRule ^(.*)$ index.php [QSA,L]']) C:\wamp64\www\jomd\core\FileDatabase.php:59
+[04-Dec-2024 14:16:07 Asia/Vientiane] PHP   7. FileDatabase->bindFileParams($stmt = class SQLite3Stmt {  }, $data = ['id' => '', 'title' => 'sss', 'file' => 'manual.md', 'content' => 'RewriteEngine On\r\nRewriteBase /jomd/\r\n\r\n# ບໍ່ rewrite ຖ້າເປັນໄຟລ໌ທີ່ມີຢູ່ແລ້ວ\r\nRewriteCond %{REQUEST_FILENAME} !-f\r\nRewriteCond %{REQUEST_FILENAME} !-d\r\n\r\n# Rewrite ທຸກ request ໄປຫາ index.php\r\nRewriteRule ^(.*)$ index.php [QSA,L]']) C:\wamp64\www\jomd\core\FileDatabase.php:108
+[04-Dec-2024 14:16:59 Asia/Vientiane] PHP Warning:  Undefined array key "file_name" in C:\wamp64\www\jomd\core\FileDatabase.php on line 117
+[04-Dec-2024 14:16:59 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 14:16:59 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 14:16:59 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:13
+[04-Dec-2024 14:16:59 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'store', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[04-Dec-2024 14:16:59 Asia/Vientiane] PHP   4. ManageController->store(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[04-Dec-2024 14:16:59 Asia/Vientiane] PHP   5. FileDatabase->saveFile($data = ['id' => '', 'title' => 'sss', 'file' => 'manual.md', 'content' => 'RewriteEngine On\r\nRewriteBase /jomd/\r\n\r\n# ບໍ່ rewrite ຖ້າເປັນໄຟລ໌ທີ່ມີຢູ່ແລ້ວ\r\nRewriteCond %{REQUEST_FILENAME} !-f\r\nRewriteCond %{REQUEST_FILENAME} !-d\r\n\r\n# Rewrite ທຸກ request ໄປຫາ index.php\r\nRewriteRule ^(.*)$ index.php [QSA,L]']) C:\wamp64\www\jomd\controllers\ManageController.php:25
+[04-Dec-2024 14:16:59 Asia/Vientiane] PHP   6. FileDatabase->updateFileRecord($data = ['id' => '', 'title' => 'sss', 'file' => 'manual.md', 'content' => 'RewriteEngine On\r\nRewriteBase /jomd/\r\n\r\n# ບໍ່ rewrite ຖ້າເປັນໄຟລ໌ທີ່ມີຢູ່ແລ້ວ\r\nRewriteCond %{REQUEST_FILENAME} !-f\r\nRewriteCond %{REQUEST_FILENAME} !-d\r\n\r\n# Rewrite ທຸກ request ໄປຫາ index.php\r\nRewriteRule ^(.*)$ index.php [QSA,L]']) C:\wamp64\www\jomd\core\FileDatabase.php:59
+[04-Dec-2024 14:16:59 Asia/Vientiane] PHP   7. FileDatabase->bindFileParams($stmt = class SQLite3Stmt {  }, $data = ['id' => '', 'title' => 'sss', 'file' => 'manual.md', 'content' => 'RewriteEngine On\r\nRewriteBase /jomd/\r\n\r\n# ບໍ່ rewrite ຖ້າເປັນໄຟລ໌ທີ່ມີຢູ່ແລ້ວ\r\nRewriteCond %{REQUEST_FILENAME} !-f\r\nRewriteCond %{REQUEST_FILENAME} !-d\r\n\r\n# Rewrite ທຸກ request ໄປຫາ index.php\r\nRewriteRule ^(.*)$ index.php [QSA,L]']) C:\wamp64\www\jomd\core\FileDatabase.php:108
+[04-Dec-2024 14:23:07 Asia/Vientiane] Controller not found: UploadsController
+[04-Dec-2024 14:41:26 Asia/Vientiane] View file not found: views/manage/edit.php
+[04-Dec-2024 14:41:28 Asia/Vientiane] View file not found: views/manage/edit.php
+[04-Dec-2024 14:45:07 Asia/Vientiane] Method update not found in controller ManageController
+[04-Dec-2024 14:49:13 Asia/Vientiane] Method delete not found in controller ManageController
+[04-Dec-2024 15:03:57 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[04-Dec-2024 15:03:57 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 15:03:57 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 15:03:57 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:13
+[04-Dec-2024 15:03:57 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ConvertController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[04-Dec-2024 15:03:57 Asia/Vientiane] PHP   4. ConvertController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[04-Dec-2024 15:03:57 Asia/Vientiane] PHP   5. Controller->render($view = 'convert/index', $data = *uninitialized*, $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ConvertController.php:7
+[04-Dec-2024 15:03:57 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'convert/index', $data = []) C:\wamp64\www\jomd\core\Controller.php:24
+[04-Dec-2024 15:03:57 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:152
+[04-Dec-2024 15:03:57 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\convert\index.php:11
+[04-Dec-2024 15:05:46 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[04-Dec-2024 15:05:46 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 15:05:46 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 15:05:46 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:13
+[04-Dec-2024 15:05:46 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ConvertController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[04-Dec-2024 15:05:46 Asia/Vientiane] PHP   4. ConvertController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[04-Dec-2024 15:05:46 Asia/Vientiane] PHP   5. Controller->render($view = 'convert/index', $data = *uninitialized*, $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ConvertController.php:7
+[04-Dec-2024 15:05:46 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'convert/index', $data = []) C:\wamp64\www\jomd\core\Controller.php:24
+[04-Dec-2024 15:05:46 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:152
+[04-Dec-2024 15:05:46 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\convert\index.php:11
+[04-Dec-2024 15:06:34 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[04-Dec-2024 15:06:34 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 15:06:34 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 15:06:34 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:13
+[04-Dec-2024 15:06:34 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ConvertController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[04-Dec-2024 15:06:34 Asia/Vientiane] PHP   4. ConvertController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[04-Dec-2024 15:06:34 Asia/Vientiane] PHP   5. Controller->render($view = 'convert/index', $data = *uninitialized*, $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ConvertController.php:7
+[04-Dec-2024 15:06:34 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'convert/index', $data = []) C:\wamp64\www\jomd\core\Controller.php:24
+[04-Dec-2024 15:06:34 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:152
+[04-Dec-2024 15:06:34 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\convert\index.php:11
+[04-Dec-2024 15:07:24 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[04-Dec-2024 15:07:24 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 15:07:24 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 15:07:24 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:13
+[04-Dec-2024 15:07:24 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ConvertController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[04-Dec-2024 15:07:24 Asia/Vientiane] PHP   4. ConvertController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[04-Dec-2024 15:07:24 Asia/Vientiane] PHP   5. Controller->render($view = 'convert/index', $data = *uninitialized*, $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ConvertController.php:7
+[04-Dec-2024 15:07:24 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'convert/index', $data = []) C:\wamp64\www\jomd\core\Controller.php:24
+[04-Dec-2024 15:07:24 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:152
+[04-Dec-2024 15:07:24 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\convert\index.php:11
+[04-Dec-2024 15:07:37 Asia/Vientiane] Method convert not found in controller ConvertController
+[04-Dec-2024 15:07:43 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[04-Dec-2024 15:07:43 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 15:07:43 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 15:07:43 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:13
+[04-Dec-2024 15:07:43 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ConvertController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[04-Dec-2024 15:07:43 Asia/Vientiane] PHP   4. ConvertController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[04-Dec-2024 15:07:43 Asia/Vientiane] PHP   5. Controller->render($view = 'convert/index', $data = *uninitialized*, $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ConvertController.php:7
+[04-Dec-2024 15:07:43 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'convert/index', $data = []) C:\wamp64\www\jomd\core\Controller.php:24
+[04-Dec-2024 15:07:43 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:152
+[04-Dec-2024 15:07:43 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\convert\index.php:11
+[04-Dec-2024 15:14:11 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[04-Dec-2024 15:14:11 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 15:14:11 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 15:14:11 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:13
+[04-Dec-2024 15:14:11 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ConvertController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[04-Dec-2024 15:14:11 Asia/Vientiane] PHP   4. ConvertController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[04-Dec-2024 15:14:11 Asia/Vientiane] PHP   5. Controller->render($view = 'convert/index', $data = *uninitialized*, $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ConvertController.php:7
+[04-Dec-2024 15:14:11 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'convert/index', $data = []) C:\wamp64\www\jomd\core\Controller.php:24
+[04-Dec-2024 15:14:11 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:152
+[04-Dec-2024 15:14:11 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\convert\index.php:15
+[04-Dec-2024 15:24:30 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[04-Dec-2024 15:24:30 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 15:24:30 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 15:24:30 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:13
+[04-Dec-2024 15:24:30 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[04-Dec-2024 15:24:30 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[04-Dec-2024 15:24:30 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:14
+[04-Dec-2024 15:24:30 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:24
+[04-Dec-2024 15:24:30 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:152
+[04-Dec-2024 15:24:30 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[04-Dec-2024 15:27:31 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[04-Dec-2024 15:27:31 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 15:27:31 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 15:27:31 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:13
+[04-Dec-2024 15:27:31 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[04-Dec-2024 15:27:31 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[04-Dec-2024 15:27:31 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:14
+[04-Dec-2024 15:27:31 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:24
+[04-Dec-2024 15:27:31 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:152
+[04-Dec-2024 15:27:31 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[04-Dec-2024 15:27:40 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[04-Dec-2024 15:27:40 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 15:27:40 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 15:27:40 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:13
+[04-Dec-2024 15:27:40 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[04-Dec-2024 15:27:40 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[04-Dec-2024 15:27:40 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:14
+[04-Dec-2024 15:27:40 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:24
+[04-Dec-2024 15:27:40 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:152
+[04-Dec-2024 15:27:40 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[04-Dec-2024 15:27:48 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[04-Dec-2024 15:27:48 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 15:27:48 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 15:27:48 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:13
+[04-Dec-2024 15:27:48 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[04-Dec-2024 15:27:48 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[04-Dec-2024 15:27:48 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:14
+[04-Dec-2024 15:27:48 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:24
+[04-Dec-2024 15:27:48 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:152
+[04-Dec-2024 15:27:48 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[04-Dec-2024 15:29:40 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[04-Dec-2024 15:29:40 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 15:29:40 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 15:29:40 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:13
+[04-Dec-2024 15:29:40 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[04-Dec-2024 15:29:40 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[04-Dec-2024 15:29:40 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:14
+[04-Dec-2024 15:29:40 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:24
+[04-Dec-2024 15:29:40 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:152
+[04-Dec-2024 15:29:40 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[04-Dec-2024 15:30:38 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[04-Dec-2024 15:30:38 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 15:30:38 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 15:30:38 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:13
+[04-Dec-2024 15:30:38 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[04-Dec-2024 15:30:38 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[04-Dec-2024 15:30:38 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:14
+[04-Dec-2024 15:30:38 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:24
+[04-Dec-2024 15:30:38 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:152
+[04-Dec-2024 15:30:38 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[04-Dec-2024 15:32:25 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[04-Dec-2024 15:32:25 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 15:32:25 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 15:32:25 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:13
+[04-Dec-2024 15:32:25 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[04-Dec-2024 15:32:25 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[04-Dec-2024 15:32:25 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:14
+[04-Dec-2024 15:32:25 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:24
+[04-Dec-2024 15:32:25 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:152
+[04-Dec-2024 15:32:25 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[04-Dec-2024 15:34:38 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[04-Dec-2024 15:34:38 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 15:34:38 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 15:34:38 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:13
+[04-Dec-2024 15:34:38 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[04-Dec-2024 15:34:38 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[04-Dec-2024 15:34:38 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:14
+[04-Dec-2024 15:34:38 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:24
+[04-Dec-2024 15:34:38 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:152
+[04-Dec-2024 15:34:38 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[04-Dec-2024 15:34:57 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[04-Dec-2024 15:34:57 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 15:34:57 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 15:34:57 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:13
+[04-Dec-2024 15:34:57 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[04-Dec-2024 15:34:57 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[04-Dec-2024 15:34:57 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:14
+[04-Dec-2024 15:34:57 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:24
+[04-Dec-2024 15:34:57 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:152
+[04-Dec-2024 15:34:57 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[04-Dec-2024 15:34:57 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[04-Dec-2024 15:34:57 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 15:34:57 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 15:34:57 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:13
+[04-Dec-2024 15:34:57 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[04-Dec-2024 15:34:57 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[04-Dec-2024 15:34:57 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:14
+[04-Dec-2024 15:34:57 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:24
+[04-Dec-2024 15:34:57 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:152
+[04-Dec-2024 15:34:57 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[04-Dec-2024 15:50:40 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[04-Dec-2024 15:50:40 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 15:50:40 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 15:50:40 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:13
+[04-Dec-2024 15:50:40 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[04-Dec-2024 15:50:40 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[04-Dec-2024 15:50:40 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:14
+[04-Dec-2024 15:50:40 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:24
+[04-Dec-2024 15:50:40 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:152
+[04-Dec-2024 15:50:40 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[04-Dec-2024 15:50:40 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[04-Dec-2024 15:50:40 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 15:50:40 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 15:50:40 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:13
+[04-Dec-2024 15:50:40 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[04-Dec-2024 15:50:40 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[04-Dec-2024 15:50:40 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:14
+[04-Dec-2024 15:50:40 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:24
+[04-Dec-2024 15:50:40 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:152
+[04-Dec-2024 15:50:40 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[04-Dec-2024 15:51:34 Asia/Vientiane] PHP Warning:  Undefined variable $_SESSION in C:\wamp64\www\jomd\controllers\ManageController.php on line 9
+[04-Dec-2024 15:51:34 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 15:51:34 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 15:51:34 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:13
+[04-Dec-2024 15:51:34 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[04-Dec-2024 15:51:34 Asia/Vientiane] PHP   4. ManageController->__construct() C:\wamp64\www\jomd\core\Router.php:94
+[04-Dec-2024 15:51:34 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[04-Dec-2024 15:51:34 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 15:51:34 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 15:51:34 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:13
+[04-Dec-2024 15:51:34 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[04-Dec-2024 15:51:34 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[04-Dec-2024 15:51:34 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:15
+[04-Dec-2024 15:51:34 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:24
+[04-Dec-2024 15:51:34 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:152
+[04-Dec-2024 15:51:34 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[04-Dec-2024 15:51:34 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[04-Dec-2024 15:51:34 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 15:51:34 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 15:51:34 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:13
+[04-Dec-2024 15:51:34 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[04-Dec-2024 15:51:34 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[04-Dec-2024 15:51:34 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:15
+[04-Dec-2024 15:51:34 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:24
+[04-Dec-2024 15:51:34 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:152
+[04-Dec-2024 15:51:34 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[04-Dec-2024 15:51:57 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[04-Dec-2024 15:51:57 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 15:51:57 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 15:51:57 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:15
+[04-Dec-2024 15:51:57 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[04-Dec-2024 15:51:57 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[04-Dec-2024 15:51:57 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:15
+[04-Dec-2024 15:51:57 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:24
+[04-Dec-2024 15:51:57 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:152
+[04-Dec-2024 15:51:57 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[04-Dec-2024 15:51:57 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[04-Dec-2024 15:51:57 Asia/Vientiane] PHP Stack trace:
+[04-Dec-2024 15:51:57 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[04-Dec-2024 15:51:57 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:15
+[04-Dec-2024 15:51:57 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[04-Dec-2024 15:51:57 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[04-Dec-2024 15:51:57 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:15
+[04-Dec-2024 15:51:57 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:24
+[04-Dec-2024 15:51:57 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:152
+[04-Dec-2024 15:51:57 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[04-Dec-2024 15:56:21 Asia/Vientiane] Controller not found: LoginController
