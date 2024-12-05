@@ -10,13 +10,13 @@
                         <!-- ຊື່ຜູ້ໃຊ້ -->
                         <div class="mb-3">
                             <label for="username" class="form-label">ຊື່ຜູ້ໃຊ້</label>
-                            <input type="text" class="form-control" id="username" required>
+                            <input type="text" class="form-control" id="username" name="username" required>
                         </div>
 
                         <!-- ລະຫັດຜ່ານ -->
                         <div class="mb-3">
                             <label for="password" class="form-label">ລະຫັດຜ່ານ</label>
-                            <input type="password" class="form-control" id="password" required>
+                            <input type="password" class="form-control" id="password" name="password" required>
                         </div>
 
                         <!-- ຈື່ຂ້ອຍໄວ້ -->
@@ -24,6 +24,8 @@
                             <input type="checkbox" class="form-check-input" id="rememberMe">
                             <label class="form-check-label" for="rememberMe">ຈື່ຂ້ອຍໄວ້</label>
                         </div>
+
+                        <?= Helper::showFlash() ?>
 
                         <!-- ປຸ່ມເຂົ້າສູ່ລະບົບ -->
                         <div class="d-grid">

@@ -3,6 +3,8 @@
     require_once "./core/DatabaseException.php";
     require_once "./core/Database.php";
     require_once "./core/FileDatabase.php";
+    require_once "./core/AuthDatabase.php";
+    require_once "./core/Redirector.php";
     require_once "./core/Controller.php";
     require_once "./core/ResponseHandler.php";
     require_once "./core/Helper.php";

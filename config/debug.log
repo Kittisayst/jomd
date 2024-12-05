@@ -907,3 +907,525 @@ Stack trace:
 [04-Dec-2024 15:51:57 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:152
 [04-Dec-2024 15:51:57 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
 [04-Dec-2024 15:56:21 Asia/Vientiane] Controller not found: LoginController
+[05-Dec-2024 10:54:04 Asia/Vientiane] PHP Fatal error:  Trait "Redirector" not found in C:\wamp64\www\jomd\core\Controller.php on line 3
+[05-Dec-2024 10:54:04 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 10:54:04 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 10:54:04 Asia/Vientiane] PHP   2. require_once() C:\wamp64\www\jomd\index.php:7
+[05-Dec-2024 10:54:16 Asia/Vientiane] PHP Fatal error:  Trait "Redirector" not found in C:\wamp64\www\jomd\core\Controller.php on line 3
+[05-Dec-2024 10:54:16 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 10:54:16 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 10:54:16 Asia/Vientiane] PHP   2. require_once() C:\wamp64\www\jomd\index.php:7
+[05-Dec-2024 10:54:24 Asia/Vientiane] PHP Fatal error:  Trait "Redirector" not found in C:\wamp64\www\jomd\core\Controller.php on line 3
+[05-Dec-2024 10:54:24 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 10:54:24 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 10:54:24 Asia/Vientiane] PHP   2. require_once() C:\wamp64\www\jomd\index.php:7
+[05-Dec-2024 11:01:57 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 11:01:57 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 11:01:57 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 11:01:57 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 11:01:57 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 11:01:57 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 11:01:57 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 11:01:57 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 11:01:57 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 11:01:57 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 11:01:57 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 11:01:57 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 11:01:57 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 11:01:57 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 11:01:57 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 11:01:57 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 11:01:57 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 11:01:57 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 11:01:57 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 11:01:57 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 11:02:06 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 11:02:06 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 11:02:06 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 11:02:06 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 11:02:06 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 11:02:06 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 11:02:06 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 11:02:06 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 11:02:06 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 11:02:06 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 11:02:06 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 11:02:06 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 11:02:06 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 11:02:06 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 11:02:06 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 11:02:06 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 11:02:06 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 11:02:06 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 11:02:06 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 11:02:06 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 11:02:08 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 11:02:08 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 11:02:08 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 11:02:08 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 11:02:08 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 11:02:08 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 11:02:08 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 11:02:08 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 11:02:08 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 11:02:08 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 11:02:08 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 11:02:08 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 11:02:08 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 11:02:08 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 11:02:08 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 11:02:08 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 11:02:08 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 11:02:08 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 11:02:08 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 11:02:08 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 11:02:11 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 11:02:11 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 11:02:11 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 11:02:11 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 11:02:11 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 11:02:11 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 11:02:11 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 11:02:11 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 11:02:11 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 11:02:11 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 11:02:11 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 11:02:11 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 11:02:11 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 11:02:11 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 11:02:11 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 11:02:11 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 11:02:11 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 11:02:11 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 11:02:11 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 11:02:11 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 11:02:57 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 11:02:57 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 11:02:57 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 11:02:57 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 11:02:57 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 11:02:57 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 11:02:57 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 11:02:57 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 11:02:57 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 11:02:57 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 11:02:57 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 11:02:57 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 11:02:57 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 11:02:57 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 11:02:57 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 11:02:57 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 11:02:57 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 11:02:57 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 11:02:57 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 11:02:57 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 11:04:14 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 11:04:14 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 11:04:14 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 11:04:14 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 11:04:14 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 11:04:14 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 11:04:14 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 11:04:14 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 11:04:14 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 11:04:14 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 11:04:14 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 11:04:14 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 11:04:14 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 11:04:14 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 11:04:14 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 11:04:14 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 11:04:14 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 11:04:14 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 11:04:14 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 11:04:14 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 11:04:29 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 11:04:29 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 11:04:29 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 11:04:29 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 11:04:29 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 11:04:29 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 11:04:29 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 11:04:29 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 11:04:29 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 11:04:29 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 11:04:29 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 11:04:29 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 11:04:29 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 11:04:29 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 11:04:29 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 11:04:29 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 11:04:29 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 11:04:29 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 11:04:29 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 11:04:29 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 11:04:29 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 11:04:29 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 11:04:29 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 11:04:29 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 11:04:29 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 11:04:29 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 11:04:29 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 11:04:29 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 11:04:29 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 11:04:29 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 11:05:29 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 11:05:29 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 11:05:29 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 11:05:29 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 11:05:29 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 11:05:29 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 11:05:29 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 11:05:29 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 11:05:29 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 11:05:29 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 11:05:29 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 11:05:29 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 11:05:29 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 11:05:29 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 11:05:29 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 11:05:29 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 11:05:29 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 11:05:29 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 11:05:29 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 11:05:29 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 11:05:29 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 11:05:29 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 11:05:29 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 11:05:29 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 11:05:29 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 11:05:29 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 11:05:29 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 11:05:29 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 11:05:29 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 11:05:29 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 11:05:32 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 11:05:32 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 11:05:32 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 11:05:32 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 11:05:32 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 11:05:32 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 11:05:32 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 11:05:32 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 11:05:32 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 11:05:32 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 11:05:32 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 11:05:32 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 11:05:32 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 11:05:32 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 11:05:32 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 11:05:32 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 11:05:32 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 11:05:32 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 11:05:32 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 11:05:32 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 11:12:12 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 11:12:12 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 11:12:12 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 11:12:12 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 11:12:12 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 11:12:12 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 11:12:12 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 11:12:12 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 11:12:12 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 11:12:12 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 11:12:12 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 11:12:12 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 11:12:12 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 11:12:12 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 11:12:12 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 11:12:12 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 11:12:12 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 11:12:12 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 11:12:12 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 11:12:12 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 11:14:02 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 11:14:02 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 11:14:02 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 11:14:02 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 11:14:02 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 11:14:02 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 11:14:02 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 11:14:02 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 11:14:02 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 11:14:02 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 11:14:02 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 11:14:02 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 11:14:02 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 11:14:02 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 11:14:02 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 11:14:02 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 11:14:02 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 11:14:02 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 11:14:02 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 11:14:02 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 11:14:19 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 11:14:19 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 11:14:19 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 11:14:19 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 11:14:19 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 11:14:19 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 11:14:19 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 11:14:19 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 11:14:19 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 11:14:19 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 11:14:19 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 11:14:19 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 11:14:19 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 11:14:19 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 11:14:19 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 11:14:19 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 11:14:19 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 11:14:19 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 11:14:19 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 11:14:19 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 11:14:19 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 11:14:19 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 11:14:19 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 11:14:19 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 11:14:19 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 11:14:19 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 11:14:19 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 11:14:19 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 11:14:19 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 11:14:19 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 11:18:06 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 11:18:06 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 11:18:06 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 11:18:06 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 11:18:06 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 11:18:06 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 11:18:06 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 11:18:06 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 11:18:06 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 11:18:06 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 11:18:06 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 11:18:06 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 11:18:06 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 11:18:06 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 11:18:06 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 11:18:06 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 11:18:06 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 11:18:06 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 11:18:06 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 11:18:06 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 11:18:06 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 11:18:06 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 11:18:06 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 11:18:06 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 11:18:06 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 11:18:06 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 11:18:06 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 11:18:06 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 11:18:06 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 11:18:06 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 11:18:18 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 14:06:09 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 14:06:11 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 14:11:49 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...], 4 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...], 4 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...], 4 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...], 4 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...], 4 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...], 4 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...], 4 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...], 4 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP Warning:  Undefined array key "csrf" in C:\wamp64\www\jomd\core\Helper.php on line 115
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP Stack trace:
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   1. {main}() C:\wamp64\www\jomd\index.php:0
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   2. Router->route() C:\wamp64\www\jomd\index.php:18
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   3. Router->executeRoute($controller = 'ManageController', $action = 'index', $id = NULL) C:\wamp64\www\jomd\core\Router.php:38
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   4. ManageController->index(NULL) C:\wamp64\www\jomd\core\Router.php:100
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   5. Controller->render($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...], 4 => [...]]], $layout = *uninitialized*) C:\wamp64\www\jomd\controllers\ManageController.php:16
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   6. Controller->getViewContent($view = 'manage/index', $data = ['files' => [0 => [...], 1 => [...], 2 => [...], 3 => [...], 4 => [...]]]) C:\wamp64\www\jomd\core\Controller.php:25
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   7. include() C:\wamp64\www\jomd\core\Controller.php:153
+[05-Dec-2024 14:12:04 Asia/Vientiane] PHP   8. Helper::csrf() C:\wamp64\www\jomd\views\manage\index.php:62

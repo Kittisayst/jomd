@@ -55,7 +55,7 @@
                             <!-- File Content Preview -->
                             <div class="card-text mb-4">
                                 <div class="text-muted preview-text">
-                                    <?= Helper::truncate(Helper::html($file['content']), 150) ?>
+                                    <?= Helper::truncate(Helper::html($file['content']), 200) ?>
                                 </div>
                             </div>
 

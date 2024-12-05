@@ -5,6 +5,7 @@ class Controller
     protected const VIEWS_PATH = 'views/';
     protected const LAYOUTS_PATH = 'views/layouts/';
     protected const DEFAULT_LAYOUT = 'main';
+    use Redirector;
 
     /**
      * Renders a view with optional data

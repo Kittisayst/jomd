@@ -132,4 +132,109 @@ class Helper
         }
         return $text;
     }
+
+    /**
+     * ສະແດງ flash message ແບບ Bootstrap alert
+     * @return string HTML ຂອງ flash message
+     */
+    public static function showFlash(): string
+    {
+        if (!isset($_SESSION['_flash_message'])) {
+            return '';
+        }
+
+        $message = $_SESSION['_flash_message'];
+        unset($_SESSION['_flash_message']);
+
+        // ແປງປະເພດຂໍ້ຄວາມເປັນ Bootstrap classes
+        $typeMap = [
+            'success' => 'alert-success',
+            'error' => 'alert-danger',
+            'warning' => 'alert-warning',
+            'info' => 'alert-info'
+        ];
+
+        $type = $typeMap[$message['type']] ?? 'alert-info';
+        $text = htmlspecialchars($message['text']);
+
+        return <<<HTML
+    <div class="alert {$type} alert-dismissible fade show" role="alert">
+        {$text}
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    HTML;
+    }
+
+    /**
+     * ສະແດງຂໍ້ຜິດພາດຂອງ form ທັງໝົດ
+     * @return string HTML ຂອງລາຍການຂໍ້ຜິດພາດ
+     */
+    function showErrors(): string
+    {
+        if (!isset($_SESSION['_flash_errors']) || empty($_SESSION['_flash_errors'])) {
+            return '';
+        }
+
+        $errors = $_SESSION['_flash_errors'];
+        unset($_SESSION['_flash_errors']);
+
+        $errorList = '';
+        foreach ($errors as $error) {
+            $errorList .= "<li>" . htmlspecialchars($error) . "</li>";
+        }
+
+        return <<<HTML
+    <div class="alert alert-danger" role="alert">
+        <h4 class="alert-heading">ກະລຸນາກວດສອບຂໍ້ມູນ</h4>
+        <ul>
+            {$errorList}
+        </ul>
+    </div>
+    HTML;
+    }
+
+    /**
+     * ດຶງຂໍ້ມູນເກົ່າຂອງ form field
+     * @param string $key ຊື່ field
+     * @param mixed $default ຄ່າເລີ່ມຕົ້ນ
+     * @return mixed
+     */
+    function old(?string $key, mixed $default = null): mixed
+    {
+        if (!isset($_SESSION['_flash_input']) || !isset($_SESSION['_flash_input'][$key])) {
+            return $default;
+        }
+
+        $value = $_SESSION['_flash_input'][$key];
+        unset($_SESSION['_flash_input'][$key]);
+        return $value;
+    }
+
+    /**
+     * ກວດວ່າມີຂໍ້ຜິດພາດສຳລັບ field ນີ້ຫຼືບໍ່
+     * @param string $field ຊື່ field
+     * @return bool
+     */
+    function hasError(string $field): bool
+    {
+        return isset($_SESSION['_flash_errors']) &&
+            isset($_SESSION['_flash_errors'][$field]);
+    }
+
+    /**
+     * ສະແດງຂໍ້ຜິດພາດສຳລັບ field ສະເພາະ
+     * @param string $field ຊື່ field
+     * @return string HTML ຂອງຂໍ້ຜິດພາດ
+     */
+    function getFieldError(string $field): string
+    {
+        if (!$this->hasError($field)) {
+            return '';
+        }
+
+        $error = htmlspecialchars($_SESSION['_flash_errors'][$field]);
+        unset($_SESSION['_flash_errors'][$field]);
+
+        return "<div class='invalid-feedback'>{$error}</div>";
+    }
 }
